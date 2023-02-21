@@ -1,0 +1,59 @@
+body {
+  background-color: yellowgreen;
+  font-family: "Times New Roman", Times, serif;
+  color: purple;
+}
+header {
+  background-color: purple;
+  color: red;
+  text-align: center;
+}
+header h1 {
+  margin: 8px 15px 12px 2px;
+}
+
+section {
+  background-color: greenyellow;
+  color: blue;
+}
+
+#about {
+  background-color: blue;
+  color: purple;
+}
+
+#about img {
+  max-width: 33%;
+}
+
+nav ul {
+  background-color: skyblue;
+  margin: 40px;
+  padding: 60px;
+  border: 5px;
+}
+#selectors dl {
+  border-width: 2px;
+  border-color: red;
+  border-style: solid;
+}
+
+#boxmodel {
+  background-color: yellow;
+  color: purple;
+}
+#units {
+  background-color: rgb(34, 215, 28);
+  color: rgb(149, 72, 135);
+}
+#fonts {
+  background-color: purple;
+  color: red;
+}
+section.codebox {
+  background-color: antiquewhite;
+}
+
+nav > ul {
+  list-style-type: none;
+}
